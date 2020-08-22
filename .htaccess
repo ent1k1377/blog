@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /
+
+#RewriteCond %{REQUEST_URI} !^/index.php
+#RewriteRule ^(.*?)/?$ index.php&page=$1
+
+#RewriteCond %{REQUEST_URI} !^/index.php
+#RewriteRule ^/articles/([0-9])/?$ /articles.php?id=$1
+#RewriteRule ^(.*?)/articles/1/$ /articles.php?id=1
+#RedirectMatch ^/articles/(.*?)/?$ /articles/?id=1
